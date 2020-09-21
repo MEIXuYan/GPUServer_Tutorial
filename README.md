@@ -134,7 +134,7 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git
 ```
 用如下内容替换原.zshrc文件内容:
 ```
-export ZSH="/home/xx/.oh-my-zsh"
+export ZSH="$HOME/.oh-my-zsh"
 ZSH_THEME="ys"
 plugins=(
           git
@@ -174,7 +174,7 @@ curl 'http://202.204.48.66' --data "DDDDD=学号&upass=密码&0MKKey="
 curl http://202.204.48.66/F.htm
 ```
 
-3. 结合ssh访问，vim编辑，git版本控制，tmux窗口管理
+3. 结合ssh访问，vim编辑，git版本控制，tmux窗口管理（必须使用）
 
 4. 创建virtualenv虚拟python环境
 ```
@@ -188,7 +188,13 @@ deactivate
 
 ## 3 问题处理
 卡显存，使用ctrl+c
+
+查询所有网络内设备
+
 定期更新
+
+## 4 自动连接网络
+
 
 
 
