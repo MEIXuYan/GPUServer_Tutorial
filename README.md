@@ -164,6 +164,12 @@ sudo adduser 用户名
 grep bash /etc/passwd
 ```
 
+11. [duf](https://github.com/muesli/duf)磁盘容量查询：
+```
+sudo mv duf /usr/bin
+duf
+```
+
 ## 2 使用教程
 1. 基本shell操作
 2. 命令行连接校园网
