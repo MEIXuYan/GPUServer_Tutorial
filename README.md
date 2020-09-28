@@ -180,7 +180,10 @@ curl 'http://202.204.48.66' --data "DDDDD=学号&upass=密码&0MKKey="
 curl http://202.204.48.66/F.htm
 ```
 
-3. 结合ssh访问，vim编辑，git版本控制，tmux窗口管理（必须使用）
+3. 结合ssh访问，
+* vim编辑 https://github.com/iggredible/Learn-Vim
+* git版本控制
+* tmux窗口管理（必须使用）
 
 4. 创建virtualenv虚拟python环境
 ```
