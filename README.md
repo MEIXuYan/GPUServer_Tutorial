@@ -82,6 +82,7 @@ sudo apt-get remove nvidia-*
 # 增加安装包权限
 chmod a+x NVIDIA-Linux-x86_64-430.50.run
 # 运行安装包
+# 注意-no-opengl-files参数可能会导致显示卡顿
 sudo ./NVIDIA-Linux-x86_64-430.50.run -no-x-check -no-nouveau-check -no-opengl-files 
 # 安装注意如下选型选yes，其他按照默认选择
 Would you like to run the nvidia-xconfigutility to automatically update your x configuration so that the NVIDIA x driver will be used when you restart x? Any pre-existing x confile will be backed up. 选择 Yes 继续
