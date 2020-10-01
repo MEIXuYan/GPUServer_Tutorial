@@ -197,6 +197,12 @@ curl http://202.204.48.66/F.htm
 * tmux窗口管理（必须使用）
 * CUDA C https://github.com/huangrt01/CS-Notes/blob/master/Notes/nvidia.md
 
+```
+# Github设置
+git config --global user.name xx
+git config --global user.email xx
+```
+
 4. 创建virtualenv虚拟python环境
 ```
 # 创建环境
