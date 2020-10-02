@@ -230,5 +230,12 @@ https://tangshusen.me/Deep-Learning-with-PyTorch-Chinese/#/
 https://www.zhihu.com/column/c_1244271799468482560
 
 
+## 6 可视化代码
+安装mayavi可视化工具
+```
+sudo apt install python-vtk
+pip install mayavi
+```
+
 
 
