@@ -192,7 +192,9 @@ curl http://202.204.48.66/F.htm
 ```
 
 3. 结合ssh访问，
-* vim编辑 https://github.com/iggredible/Learn-Vim  https://github.com/huangrt01/CS-Notes/blob/master/Notes/Vim.md
+* vim编辑 
+    * https://github.com/iggredible/Learn-Vim  
+    * https://github.com/huangrt01/CS-Notes/blob/master/Notes/Vim.md*
 * git版本控制 https://github.com/huangrt01/CS-Notes/blob/master/Notes/git.md
 * tmux窗口管理（必须使用）
 * CUDA C https://github.com/huangrt01/CS-Notes/blob/master/Notes/nvidia.md
@@ -224,10 +226,10 @@ deactivate
 
 
 ## 5 深度学习入门
-pytorch入门 
-https://tangshusen.me/Dive-into-DL-PyTorch/#/   
-https://tangshusen.me/Deep-Learning-with-PyTorch-Chinese/#/
-https://www.zhihu.com/column/c_1244271799468482560
+深度学校和PyTorch入门: 
+Dive into DL with PyTorch https://tangshusen.me/Dive-into-DL-PyTorch/#/   
+Deep-Learning-with-PyTorch https://tangshusen.me/Deep-Learning-with-PyTorch-Chinese/#/
+PyTorch日积月累 https://www.zhihu.com/column/c_1244271799468482560
 
 
 ## 6 可视化代码
