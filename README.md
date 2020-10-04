@@ -223,7 +223,8 @@ deactivate
 定期更新
 
 ## 4 自动连接网络
-
+北科大/北邮  校园网关自动连接
+参考 scripts/auto_connect.py
 
 ## 5 深度学习入门
 深度学校和PyTorch入门: 
