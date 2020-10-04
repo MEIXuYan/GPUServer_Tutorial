@@ -227,9 +227,9 @@ deactivate
 
 ## 5 深度学习入门
 深度学校和PyTorch入门: 
-Dive into DL with PyTorch https://tangshusen.me/Dive-into-DL-PyTorch/#/   
-Deep-Learning-with-PyTorch https://tangshusen.me/Deep-Learning-with-PyTorch-Chinese/#/
-PyTorch日积月累 https://www.zhihu.com/column/c_1244271799468482560
+* Dive into DL with PyTorch https://tangshusen.me/Dive-into-DL-PyTorch/#/   
+* Deep-Learning-with-PyTorch https://tangshusen.me/Deep-Learning-with-PyTorch-Chinese/#/
+* PyTorch日积月累 https://www.zhihu.com/column/c_1244271799468482560
 
 
 ## 6 可视化代码
