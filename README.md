@@ -7,7 +7,7 @@
     * 安装不要区分/home和/root，直接选择/的根挂载点安装
 
 2. 卸载不必要的系统软件：
-```
+```bash
 # 卸载libreoffices
 sudo apt-get remove libreoffice-common
 # 删除Amazon图标
@@ -18,7 +18,7 @@ sudo apt-get remove thunderbird totem rhythmbox empathy brasero simple-scan gnom
 ```
 
 3. 必备软件安装安装（openssh vim git curl tmux gcc）：
-```
+```bash
 # openssh安装
 sudo apt-get install openssh-server
 sudo apt-get install openssh-client
@@ -32,7 +32,7 @@ sudo apt-get install g++-7
 ```
 
 4. 第三方ppa源安装Python3.6/3.7：
-```
+```bash
 sudo add-apt-repository ppa:deadsnakes/ppa
 sudo apt-get update
 sudo apt install python3.6 python3.6-dev -y
@@ -40,7 +40,7 @@ sudo apt install python3.7 python3.7-dev -y
 ```
 
 5. Python-pip以及跟换国内镜像源：
-```
+```bash
 sudo apt-get install python-pip
 mkdir ~/.pip
 sudo apt-get install vim 
@@ -53,7 +53,7 @@ trusted-host = pypi.tuna.tsinghua.edu.cn
 ```
 
 6. 查询和挂载硬盘：
-```
+```bash
 # 查询硬盘
 sudo fdisk -l
 # 创建文件夹、挂载
@@ -65,7 +65,7 @@ sudo chmod -R -v 777 *
 ```
 
 7. 安装NVIDIA驱动：
-```
+```bash
 # 禁用nouveau
 sudo vim /etc/modprobe.d/blacklist.conf
 # 文件末尾添加如下两行
@@ -95,7 +95,7 @@ ctrl+alt+f7
 ```
 
 8. 安装CUDA，设置环境变量：
-```
+```bash
 # 运行安装包，安装顺序安装
 sudo sh cuda_10.1.243_418.87.00_linux.run
 # 设置环境变量
@@ -110,7 +110,7 @@ nvcc -V
 ```
 
 9. 安装CUDNN：
-```
+```bash
 # 官网注册下载CUDA版本对应CUDNN安装包
 tar -xzvf cudnn-10.0-linux-x64-v7.tgz
 # 安装
@@ -122,7 +122,7 @@ cat /usr/local/cuda/include/cudnn.h | grep CUDNN_MAJOR -A 2
 ```
 
 10. 安装zsh和oh-my-zsh：
-```
+```bash
 # 安装zsh
 sudo apt-get install zsh
 # 安装ohmyzsh,本仓库备份了该脚本文件
@@ -133,8 +133,9 @@ cd ~/.oh-my-zsh/custom/plugins/
 git clone https://github.com/zsh-users/zsh-autosuggestions.git
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git
 ```
+
 用如下内容替换原.zshrc文件内容:
-```
+```bash
 export ZSH="$HOME/.oh-my-zsh"
 ZSH_THEME="ys"
 plugins=(
@@ -153,12 +154,12 @@ export LD_LIBRARY_PATH=/usr/local/cuda/lib64:$LD_LIBRARY_PATH
 export CXX=g++-7
 ```
 改动生效
-```
+```bash
 source ~/.zshrc
 ```
 
 10. 多用户创建：
-```
+```bash
 # 添加用户
 sudo adduser 用户名
 # 显示用户列表
@@ -166,7 +167,7 @@ grep bash /etc/passwd
 ```
 
 11. [duf](https://github.com/muesli/duf)磁盘容量查询：
-```
+```bash
 sudo mv duf /usr/bin
 duf
 ```
@@ -184,7 +185,7 @@ duf
     ```
 
 2. 命令行连接校园网
-```
+```bash
 # 登录
 curl 'http://202.204.48.66' --data "DDDDD=学号&upass=密码&0MKKey="
 # 注销
@@ -199,14 +200,14 @@ curl http://202.204.48.66/F.htm
 * tmux窗口管理（必须使用）
 * CUDA C https://github.com/huangrt01/CS-Notes/blob/master/Notes/nvidia.md
 
-```
+```bash
 # Github设置
 git config --global user.name xx
 git config --global user.email xx
 ```
 
 4. 创建virtualenv虚拟python环境
-```
+```bash
 # 创建环境
 virtualenv -p /usr/bin/python3.7 virtual_3.7
 # 激活环境
@@ -224,18 +225,18 @@ deactivate
 
 ## 4 自动连接网络
 北科大/北邮  校园网关自动连接
-参考 scripts/auto_connect.py
+参考[auto_connect.py](scripts/auto_connect.py)
 
 ## 5 深度学习入门
 深度学校和PyTorch入门: 
-* Dive into DL with PyTorch https://tangshusen.me/Dive-into-DL-PyTorch/#/   
-* Deep-Learning-with-PyTorch https://tangshusen.me/Deep-Learning-with-PyTorch-Chinese/#/
-* PyTorch日积月累 https://www.zhihu.com/column/c_1244271799468482560
+* [Dive into DL with PyTorch](https://tangshusen.me/Dive-into-DL-PyTorch/#/)   
+* [Deep-Learning-with-PyTorch](https://tangshusen.me/Deep-Learning-with-PyTorch-Chinese/#/) 
+* [PyTorch日积月累](https://www.zhihu.com/column/c_1244271799468482560) 
 
 
 ## 6 可视化代码
 安装mayavi可视化工具
-```
+```bash
 sudo apt install python-vtk
 pip install mayavi
 ```
