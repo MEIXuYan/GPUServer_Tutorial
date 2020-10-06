@@ -204,6 +204,8 @@ curl http://202.204.48.66/F.htm
 # Github设置
 git config --global user.name xx
 git config --global user.email xx
+# 本地保存帐号密码
+git config --global credential.helper store
 ```
 
 4. 创建virtualenv虚拟python环境
