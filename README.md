@@ -172,6 +172,12 @@ sudo mv duf /usr/bin
 duf
 ```
 
+12. 字体安装：双击安装
+```
+https://github.com/fontmgr/MesloLGSNF
+https://github.com/supercomputra/SF-Mono-Font
+```
+
 ## 2 使用教程
 1. 基本shell操作
     * 解压文件
