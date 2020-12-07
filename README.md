@@ -178,6 +178,24 @@ https://github.com/fontmgr/MesloLGSNF
 https://github.com/supercomputra/SF-Mono-Font
 ```
 
+13. 安装cmake
+```bash
+# build from source
+# https://blog.csdn.net/qq_35398033/article/details/106457777
+sudo apt-get autoremove cmake
+wget https://github.com/Kitware/CMake/releases/download/v3.19.1/cmake-3.19.1.tar.gz
+tar -zxvf cmake-3.19.1.tar.gz
+cd cmake-3.19.1
+sudo apt-get install build-essential
+sudo apt-get install libssl-dev
+./bootstrap
+make -j 8
+sudo make install
+
+# Linux-x86_64 pack
+wget https://github.com/Kitware/CMake/releases/download/v3.19.1/cmake-3.19.1-Linux-x86_64.tar.gz
+```
+
 ## 2 使用教程
 1. 基本shell操作
     * 解压文件
