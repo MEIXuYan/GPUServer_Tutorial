@@ -196,6 +196,15 @@ sudo make install
 wget https://github.com/Kitware/CMake/releases/download/v3.19.1/cmake-3.19.1-Linux-x86_64.tar.gz
 ```
 
+14. 删除pip缓存
+```bash
+## remove pip cache
+# MAC
+rm -rf ~/Library/Caches/pip
+# Linux
+rm -rf ~/.cache/pip
+```
+
 ## 2 使用教程
 1. 基本shell操作
     * 解压文件
